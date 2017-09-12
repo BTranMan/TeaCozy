@@ -4,7 +4,6 @@ body {
   font-size: 22px;
   color: seashell;
   background-color: black;
-  opacity: 0.9;
   text-align: center;
 }
 
@@ -16,10 +15,10 @@ header {
   height: 69px;
   align-items: center;
   border-bottom: 1px solid seashell;
+  background-color: black;
 }
 
-.logo img {
-  display: flex;
+header img {
   height: 50px;
   padding-left: 10px;
 }
@@ -39,4 +38,33 @@ header li {
 header a {
   color: seashell;
   text-decoration: underline;
+}
+
+h2, h3, h4 {
+  margin: 0;
+  padding: 10px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.main {
+  padding-top: 69px;
+  opacity: 0.9;
+  width: 1200px;
+  margin: auto;
+}
+
+#mission {
+  padding-top: 70px;
+  height: 700px;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+}
+
+#mission .title {
+  margin: auto;
+  background-color: black;
+  width: 100%;
 }
