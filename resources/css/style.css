@@ -72,6 +72,7 @@ h2, h3, h4 {
 
 #tea {
   width: 1000px;
+  height: 700px;
   margin: auto;
   padding-top: 70px;
 }
@@ -90,4 +91,30 @@ h2, h3, h4 {
 .item span {
   display: block;
   font-weight: bold;
+}
+
+#locations {
+  padding-top: 70px;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+  height: 500px;
+}
+
+.location {
+  width: 280px;
+  background-color: black;
+  opacity: 1;
+  margin: 5px 20px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#contact {
+  height: 200px;
+}
+
+footer {
+  text-align: left;
+  margin-left: 20px;
 }
